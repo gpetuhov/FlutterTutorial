@@ -14,9 +14,17 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
-          child: Image(
-            image: NetworkImage(
-                'https://www.oyakata.com.pl/media/artykuly/112/gora-fuji-jesien.jpg'),
+          child: Column(
+            children: [
+              Image(
+                image: NetworkImage(
+                    'https://www.oyakata.com.pl/media/artykuly/112/gora-fuji-jesien.jpg'),
+              ),
+              Image(
+                // To add image assets don't forget to edit pubspec.yaml file
+                image: AssetImage('images/image.jpg'),
+              )
+            ],
           ),
         ),
       ),
