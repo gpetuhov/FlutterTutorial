@@ -31,3 +31,10 @@ void main() {
     ),
   );
 }
+
+// App icons
+// To generate app icons use https://appicon.co/
+// Android app icons are located inside:
+// android/app/src/main/res/mipmap folder
+// iOS app icons are located inside:
+// ios/Runner/Assets.xcassets/AppIcon.appiconset
