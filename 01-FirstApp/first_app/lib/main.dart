@@ -13,6 +13,12 @@ void main() {
           title: Text('I Am Rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                'https://www.oyakata.com.pl/media/artykuly/112/gora-fuji-jesien.jpg'),
+          ),
+        ),
       ),
     ),
   );
