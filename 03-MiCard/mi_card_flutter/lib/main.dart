@@ -42,25 +42,17 @@ class MyApp extends StatelessWidget {
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
-                child: Padding(
-                  padding: EdgeInsets.all(25.0),
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.phone,
-                        color: Colors.teal,
-                      ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        '+7 (925) 055-6055',
-                        style: TextStyle(
-                            fontFamily: 'Source Sans Pro',
-                            fontSize: 20.0,
-                            color: Colors.teal.shade900),
-                      ),
-                    ],
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '+7 (925) 055-6055',
+                    style: TextStyle(
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0,
+                        color: Colors.teal.shade900),
                   ),
                 ),
               ),
@@ -70,25 +62,17 @@ class MyApp extends StatelessWidget {
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
-                child: Padding(
-                  padding: EdgeInsets.all(25.0),
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.email,
-                        color: Colors.teal,
-                      ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        'g3pmail@gmail.com',
-                        style: TextStyle(
-                            fontFamily: 'Source Sans Pro',
-                            fontSize: 20.0,
-                            color: Colors.teal.shade900),
-                      ),
-                    ],
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'g3pmail@gmail.com',
+                    style: TextStyle(
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0,
+                        color: Colors.teal.shade900),
                   ),
                 ),
               )
