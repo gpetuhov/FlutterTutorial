@@ -21,16 +21,22 @@ class MyApp extends StatelessWidget {
         // status bar, navigation bar etc.
         body: SafeArea(
           child: Column(
+            // This is like wrap_content in Android
+            // (for the Column main axis is vertical).
+            // mainAxisSize: MainAxisSize.min,
+            // This is how to align children along the main axis (vertical)
+            mainAxisAlignment: MainAxisAlignment.start,
+            // This is how to align children along the other axis (horizontal).
+            // Stretch makes children occupy all screen width, regardless of their width.
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Container(
                 height: 100.0,
-                width: 100.0,
                 color: Colors.red,
                 child: Text('111'),
               ),
               Container(
                 height: 100.0,
-                width: 100.0,
                 color: Colors.blue,
                 child: Text('222'),
               ),
@@ -45,3 +51,5 @@ class MyApp extends StatelessWidget {
 // Note: set margin and padding like this
 // margin: EdgeInsets.all(20.0),
 // padding: EdgeInsets.all(10.0),
+
+// Note 2: we can set infinite width or height with 'double.infinity'
