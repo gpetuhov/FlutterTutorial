@@ -35,6 +35,10 @@ class MyApp extends StatelessWidget {
                 color: Colors.red,
                 child: Text('111'),
               ),
+              // SizedBox allows adding some space between widgets
+              SizedBox(
+                height: 10.0,
+              ),
               Container(
                 height: 100.0,
                 color: Colors.blue,
