@@ -20,9 +20,10 @@ class MyApp extends StatelessWidget {
               Text(
                 'Gennadiy Petuhov',
                 style: TextStyle(
-                  fontSize: 35.0,
+                  fontFamily: 'Pacifico',
+                  fontSize: 40.0,
                   color: Colors.white,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.normal,
                 ),
               ),
             ],
